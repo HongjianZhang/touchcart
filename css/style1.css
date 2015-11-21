@@ -111,11 +111,11 @@ a {
 	transition: 0.7s;
 	-moz-transition: 0.7s;
 	-webkit-transition: 0.7s;
-	background-color: #66cccc;
+	background-color: #41afb0;
 }
 
 #panel2 {
-	background-color: #FFA500;
+	background-color: #f7af1d;
 	top: 53%;
 	position: absolute;
 	/* Add Styles Below */
