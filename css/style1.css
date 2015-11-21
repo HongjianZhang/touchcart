@@ -26,7 +26,7 @@ a {
 
 #topbar {
     background-color: #222;
-    color: #f2f1ef;
+    color: black;
     width:100%;
     height:6%;
     position: fixed;
@@ -60,7 +60,7 @@ a {
 #message-container {
     width: 160px; 
 	height: 40px; 
-	background: orange; 
+	background: black; 
 	position: fixed; 
 	-moz-border-radius: 5px; 
 	-webkit-border-radius: 5px; 
