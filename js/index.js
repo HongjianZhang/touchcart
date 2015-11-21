@@ -19,7 +19,7 @@ var List = React.createClass({
               null,
               React.createElement(
                 "a",
-                {href:item.name},
+                {href:"sanp.html"},
                 item.name
               )
             ),

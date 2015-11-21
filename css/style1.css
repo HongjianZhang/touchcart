@@ -58,8 +58,8 @@ a {
 	font-weight: bold;
 }
 #message-container {
-    width: 160px; 
-	height: 40px; 
+    width: 150px; 
+	height: 150px; 
 	background: #222; 
 	position: fixed; 
 	-moz-border-radius: 5px; 
@@ -76,7 +76,7 @@ a {
 	content:""; 
 	position: absolute; 
 	right: 100%;  
-	margin-top: 26px;
+	margin-top: 0px;
 	width: 0; 
 	height: 0; 
 	border-top: 13px solid transparent; 
