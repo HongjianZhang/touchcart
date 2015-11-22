@@ -20,13 +20,114 @@
     background-color: #666;
 }
 #header {
-    margin: 150px 370px;
+    margin-top: 250px;
+    margin-bottom: 80px;
+    margin-left: 370px;;
     width: 500px;
+}
+a {
+  color:inherit;
+  text-decoration: none;
+}
+
+#topbar-container {
+    color: #f2f1ef;
+    width:100%;
+    height:80px;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+
+#topbar {
+    background-color: #222;
+    color: black;
+    width:100%;
+    height:10%;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    opacity: 1;
+}
+
+
+
+.topbar-item {
+    font-size: 16px;
+    letter-spacing: 3px;
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-right: 7%;
+    text-align: center;
+    z-index: 999;
+    float: left;
+    position: relative;
+    opacity: 0.8;
+}
+
+.topbar-item:hover {
+    opacity: 0.4;
+}
+
+#name {
+    font-weight: bold;
+}
+#message-container {
+    width: 100px; 
+    height: 100px; 
+    background: #222; 
+    position: fixed; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    border-radius: 5px; 
+    z-index: 999;
+    margin-top: 30px;
+    opacity: 0.8;
+    right: 20px;
+    color: #f2f1ef;
+}
+
+#msg-container:before { 
+    content:""; 
+    position: absolute; 
+    right: 100%;  
+    margin-top: 0px;
+    width: 0; 
+    height: 0; 
+    border-top: 13px solid transparent; 
+    border-right: 13px solid transparent; 
+    border-bottom: 13px solid transparent; 
+    border-left: 13px solid transparent;
+} 
+
+
+#message {
+    position: fixed;
+    margin-top: 12px;
+    margin-left: 27px;
+}
+
+#msg-container:hover {
+    opacity: 1;
 }
 </style>
 </head>
   
 <body>
+    <div id="topbar-container">
+        <div id="topbar"></div>
+        <div id="name" class="topbar-item">
+            <a href="index.html">           
+            <img src="/src/img/back.png" alt="Mountain View" style="width:100%;height:100%;margin:auto;" align="middle">
+            </a>
+        </div>
+
+        <div id='message-container'>
+            <a href="shoppinglist.html">            
+            <img src="/src/img/Cart.png" alt="Mountain View" style="width:100%;height:100%;margin:auto;" align="middle">
+            </a>
+        </div>
+    </div>
 <h1 id="header">Scan the barcode</h1>
 <div id="container">
     <video autoplay="true" id="videoElement">
@@ -36,7 +137,7 @@
      
                     
 <a href="after_scan.html">            
-<img src="/src/img/scan_button2.png" alt="Mountain View" style="width:300px;height:300px;display: block;margin:100px auto;" align="middle">
+<img src="/src/img/scan_button2.png" alt="Mountain View" style="width:300px;height:300px;display: block;margin:80px auto;" align="middle">
 </a>
 
 
