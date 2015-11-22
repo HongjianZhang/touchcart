@@ -59,7 +59,7 @@ var FilteredList = React.createClass({
   getInitialState: function getInitialState() {
     return {
       booklist: [{
-        name: "San Pellogrino",
+        name: "San Pellegrino",
         }, {
         name: "Peach",
         }, {
