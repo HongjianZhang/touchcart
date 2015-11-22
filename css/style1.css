@@ -104,7 +104,6 @@ a {
 .bigpanel {
 	width: 100%;
 	height: 90%;
-	background-color: #f2f1ef;
 	top: 10%;
 	position: absolute;
 	/* Add Styles Below */
@@ -113,13 +112,13 @@ a {
 	transition: 0.7s;
 	-moz-transition: 0.7s;
 	-webkit-transition: 0.7s;
-	background-color: white;
+	background-color: #f7af1d;
 }
 
 
 
 #panel1 {
-	background-color: #f2f1ef;
+	background-color: #f7af1d;
 	top: 10%;
 	position: absolute;
 	/* Add Styles Below */
