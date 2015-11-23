@@ -65,6 +65,15 @@ var FilteredList = React.createClass({
         }, {
         name: "Grapes",
         }],
+        {
+        name: "Apple",
+        }],
+        {
+        name: "Orange",
+        }],
+        {
+        name: "MacBook Air",
+        }],
       items: []
     };
   },
